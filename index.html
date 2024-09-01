@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antena Negra TV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #111;
+            padding: 10px 20px;
+            position: fixed;
+            width: 97%;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header .logo-section {
+            display: flex;
+            align-items: center;
+        }
+        header img {
+            width: 80px; /* Ajusta el tamaño del logo */
+            margin-right: 10px;
+        }
+        header h1 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+        header .social-links {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        header .social-links a img {
+            width: 24px;
+            height: 24px;
+        }
+        main {
+            padding: 120px 20px 20px 20px;
+        }
+        .video-container {
+            max-width: 100%;
+            margin-bottom: 40px;
+        }
+        iframe {
+            width: 100%;
+            height: 56.25vw; /* Proporción 16:9 */
+            max-height: 500px; /* Limita la altura */
+        }
+        hr {
+            border: 1px solid #444;
+            margin: 40px 0;
+        }
+        .section-title {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .playlists {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-bottom: 40px;
+        }
+        .playlist {
+            width: 45%;
+            margin-bottom: 20px;
+        }
+        .playlist-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .playlist-embed {
+            margin-bottom: 30px;
+        }
+        footer {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+        footer p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        footer img {
+            width: 80px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-section">
+            <img src="https://rnma.org.ar/wp-content/uploads/2024/05/IMG_20240531_123354_340.png" alt="Logo Antena Negra TV">
+            <h1>ANTENA NEGRA TV</h1>
+        </div>
+        <div class="social-links">
+            <a href="https://www.youtube.com/c/AntenaNegraTVCAP" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube">
+            </a>
+            <a href="https://www.instagram.com/antenanegratv" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+            </a>
+            <a href="https://www.tiktok.com/@antena.negra.tv" target="_blank">
+                <img src="https://1000marcas.net/wp-content/uploads/2019/12/TikTok-icon-3.png" alt="TikTok">
+            </a>
+            <a href="https://www.facebook.com/AntenaNegraTv" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+            </a>
+            <a href="https://x.com/antenanegratv" target="_blank">
+                <img src="https://img.freepik.com/vector-gratis/nuevo-diseno-icono-x-logotipo-twitter-2023_1017-45418.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1724889600&semt=ais_hybrid" alt="Twitter">
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/WtfOseST8V0?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <hr>
+
+        <div class="section-title">Estos son nuestros programas</div>
+
+        <div class="playlists">
+            <div class="playlist">
+                <h2 class="playlist-title">El Club del Helicóptero</h2>
+                <div class="playlist-embed">
+                    <iframe src="https://www.youtube.com/embed/videoseries?list=PLNMEzYr5hgGl-cfbYvravzVJL0bGiEIsd" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="playlist">
+                <h2 class="playlist-title">Roban Pero Hacen</h2>
+                <div class="playlist-embed">
+                    <iframe src="https://www.youtube.com/embed/videoseries?list=PLNMEzYr5hgGl7dYUSeAblMv1oKzuOAhcW" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="playlist">
+                <h2 class="playlist-title">Interferencias</h2>
+                <div class="playlist-embed">
+                    <iframe src="https://www.youtube.com/embed/videoseries?list=PLNMEzYr5hgGly5dQZZ8gjn9X6b5ef1Pq8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="playlist">
+                <h2 class="playlist-title">SEMANA TRÁGICA. Crónica de una ofensiva revolucionaria</h2>
+                <div class="playlist-embed">
+                    <iframe src="https://www.youtube.com/embed/videoseries?list=PLNMEzYr5hgGmggcWiRqbTrI1JlRTd0lJg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="playlist">
+                <h2 class="playlist-title">En carne propia, la Reforma Laboral en cortes</h2>
+                <div class="playlist-embed">
+                    <iframe src="https://www.youtube.com/embed/videoseries?list=PLNMEzYr5hgGl_ZOUslbRaF2XaFNMQm59b" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="playlist">
+                <h2 class="playlist-title">Ramíferaz</h2>
+                <div class="playlist-embed">
+                    <iframe src="https://www.youtube.com/embed/videoseries?list=PLNMEzYr5hgGkMBuwT4ixehCNkhLcawc7g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>somos parte de <a href="https://www.rnma.org.ar" target="_blank"><img src="https://rnma.org.ar/wp-content/uploads/2024/08/929-232-max.jpg" alt="Logo RNMA"></a></p>
+    </footer>
+
+</body>
+</html>
+
